@@ -1,0 +1,123 @@
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.jumbotron{
+	background-image: url("../img/gelap.png");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 700px;
+	background-position: 10 -50px;
+	color: white;
+	overflow: hidden;
+}
+
+.jumbotron img{
+	margin-top: 120px;
+	border-radius: 50%;
+	width: 300px;
+}
+
+span{
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.judul::after{
+	content: '';
+	display: block;
+	width: 50px;
+	margin: auto;
+	border-bottom: 3px solid #00A236;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+
+.container{
+	text-align: justify;
+}
+
+.h5, .gambar{
+	opacity: 0;
+	transform: translate(100px, 0);
+	transition: 2s;
+}
+.gambar{
+	transform: translate(-100px, 0);
+}
+
+.h5.h5Muncul, .gambar.gambarMuncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.portfolio .thumbnail{
+	opacity: 0;
+	transform: : translate(0, -40px);
+	transition: 0.8;
+}
+
+.portfolio .thumbnail.muncul{
+	opacity: 1;
+	transform: : translate(0, 0);
+}
+
+.svg{
+	text-align: center;
+	width: 300px;
+}
+
+
+.tombol{
+	background-color: #00A236;
+	border-radius: 20px;
+}
+
+/*.tombol:hover{
+	background-color: #00A236;
+}*/
+
+.pengembangan{
+	border-radius: 20px;
+	color: white;
+}
+
+.footer{
+	text-align: center;
+}
+
+
+
+@media (min-width: 992px) {
+
+	 .nav-item, .navbar-brand{
+	 	font-size: 20px;
+	 	margin-right: 32px;
+		margin-top: 16px;
+		position: relative;
+	 	color: white !important;
+		z-index: 1;
+	 }
+
+	.jumbotron{
+		margin-top: -100px;
+	}
+
+	.svg{
+		text-align: justify;
+		width: 400px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
