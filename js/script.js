@@ -31,17 +31,17 @@ $(window).scroll(function() {
 		'transform' : 'translate(0px, '+ ws/4 +'%)'
 	})
 
-	$('.jumbotron h1').css({
-		'transform' : 'translate(0px, '+ ws/2 +'%)'
-	})
+	// $('.jumbotron h1').css({
+	// 	'transform' : 'translate(0px, '+ ws/2 +'%)'
+	// })
 
-	$('.jumbotron p').css({
-		'transform' : 'translate(0px, '+ ws/4.5 +'%)'
-	})
+	// $('.jumbotron p').css({
+	// 	'transform' : 'translate(0px, '+ ws/2 +'%)'
+	// })
 
 
 //porfolio
-if (ws > $('.portfolio').offset().top -250) {
+if (ws > $('.portfolio').offset().top -200) {
 	// console.log('Masuk');
 	$('.portfolio .thumbnail').each(function(i){
 		setTimeout(function () {

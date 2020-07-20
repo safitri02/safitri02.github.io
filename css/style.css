@@ -65,8 +65,8 @@ span{
 }
 
 .svg{
-	text-align: center;
-	width: 300px;
+	text-align: center !important;
+	width: 350px;
 }
 
 
