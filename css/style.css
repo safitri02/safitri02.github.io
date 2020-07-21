@@ -64,9 +64,10 @@ span{
 	transform: : translate(0, 0);
 }
 
-.svg{
-	text-align: center !important;
-	width: 350px;
+.container .gambar{
+	padding-left: 100px;
+	width: 400px;
+	margin-bottom: 16px;
 }
 
 
@@ -88,6 +89,11 @@ span{
 	text-align: center;
 }
 
+.portfolio .card{
+	box-shadow: 0 3px 5px 3px;
+	color: #acacac;
+	margin-bottom: 32px !important;
+}
 
 
 @media (min-width: 992px) {
@@ -105,8 +111,7 @@ span{
 		margin-top: -100px;
 	}
 
-	.svg{
-		text-align: justify;
+	.container .gambar{
 		width: 400px;
 	}
 
